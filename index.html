@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asynchronous</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v21.0"></script>
+
+    <h1 class="page-title">quotes of the world</h1>
+    <div class="quote-container">
+        <div class="quote-wrapper">
+            <div class="quote-content">
+                <p id="quote-text-disply"></p>
+                <p id="quote-author-disply"></p> 
+            </div>
+            <div class="quote-heading">
+                <h2 class="quote-heading-disply">YOU CAN SEE THER NICE QUOTES</h2>
+            </div>
+        </div>
+        
+        <div class="button-wrapper">
+           <button id="get-quote">Get Quote</button> 
+           <div id="fb-share-button">
+                <div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="" data-size=""><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+           </div>
+        </div>
+        
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
